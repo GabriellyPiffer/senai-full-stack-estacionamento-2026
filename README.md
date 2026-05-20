@@ -1,4 +1,3 @@
-````md id="q7x2nf"
 # ESTACIONAMENTO ACME WEB  
 ### Situação de Aprendizagem - Full-stack  
 > Node.JS • JavaScript • VSCode • Prisma ORM • Insomnia
@@ -9,10 +8,10 @@
 
 Parte visual da arquitetura e funcionamento do sistema de estacionamento.
 
-## Tela Inicial
+## Listagem de Veículos
 ![tela1](./docs/estacionamento1.png)
 
-## Listagem de Veículos
+## Listagem de Estadia
 ![tela2](./docs/estacionamento2.png)
 
 ## Cadastro de Veículo
@@ -65,6 +64,7 @@ Parte visual da arquitetura e funcionamento do sistema de estacionamento.
 
 ---
 
+
 # Passo a Passo
 
 ## Clone o repositório
@@ -89,7 +89,7 @@ Crie um arquivo `.env` na raiz do projeto:
 
 ```env
 PORT=3000
-DATABASE_URL="mysql://root@localhost:3306/estacionamento_acme"
+DATABASE_URL="mysql://root@localhost:3306/estacionamento"
 ```
 
 ---
@@ -173,4 +173,3 @@ valorTotal = valorHora * (saida - entrada)
 - Listagem de estadias  
 
 ---
-````
